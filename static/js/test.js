@@ -149,11 +149,11 @@
 		// });
         var mesh;
 		var mtlLoader = new THREE.MTLLoader();
-		mtlLoader.setPath("http://127.0.0.1:8000/media/"+modelPath+"/");
+		mtlLoader.setPath("http://47.94.196.248:80/media/"+modelPath+"/");
 		mtlLoader.load(modelName+'.mtl', function(materials) {
 			materials.preload();
 			var objLoader = new THREE.OBJLoader(manager);
-			objLoader.setPath("http://127.0.0.1:8000/media/"+obj_modelPath+"/");
+			objLoader.setPath("http://47.94.196.248:80/media/"+obj_modelPath+"/");
 			objLoader.setMaterials(materials);
 			objLoader.load(modelName+'.obj', function(object) {
 				mesh = object;
