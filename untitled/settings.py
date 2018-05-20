@@ -141,3 +141,5 @@ EMAIL_FROM = "1347108775@qq.com"#简单点就是EMAIL_HOST_USER
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')#上传文件存储路径
+
+FILE_UPLOAD_MAX_MEMORY_SIZE = 50*1024*1024
