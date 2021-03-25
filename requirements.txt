@@ -1,7 +1,7 @@
 Django==1.9.8
 DjangoUeditor==1.8.143
 Pillow==5.0.0
-PyYAML==3.12
+PyYAML==5.4
 certifi==2018.1.18
 chardet==3.0.4
 diff-match-patch==20121119
